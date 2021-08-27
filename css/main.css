@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 .home-body {
+    font-family: 'Roboto mono', monospace;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -17,6 +18,10 @@ a {
     display:inline;
     color: black;
     cursor: pointer;
+}
+.grid-container{
+    max-width: 980px;
+    margin: auto;
 }
 /*Header*/
 header {
